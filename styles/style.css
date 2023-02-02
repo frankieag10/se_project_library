@@ -270,12 +270,11 @@
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-.staff__content {
+.staff__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 68px auto 50px;
-  padding: 0;
+  margin: 68px auto 0;
   max-width: 760px;
   list-style: none;
 }
@@ -315,9 +314,6 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  margin-top: auto;
-  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
-  /* In our case, this pushes the element down to the bottom */
   margin-top: auto;
 }
 
@@ -458,6 +454,10 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
